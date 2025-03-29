@@ -19,3 +19,13 @@ def extract_pincode(address):
         print(match.group().replace(" ", ""))  # Remove space if present
     else:
         print("-1")
+        
+address = "Flat No. 12B, Green Heights, Mumbai-400076, India"
+extract_pincode(address)
+# Expected Output: 400076
+400076  
+
+#test case
+address2 = "XYZ Towers, Bengaluru - 560103"
+extract_pincode(address2)
+560103
